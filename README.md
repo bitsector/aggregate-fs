@@ -1,4 +1,3 @@
-Of course. I've formatted the given text into a clear Markdown format:
 
 ---
 
