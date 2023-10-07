@@ -22,8 +22,7 @@ Why should you care?
 2. **Install xsel**:
    sudo apt update && sudo apt install -y xsel
 
-3. **Add the Script to .zshrc**:
-   [Your Ubuntu function here]
+3. **Add the Script agg_ubuntu.sh script to .zshrc**
 
 4. **Reload the Shell**:
    source ~/.zshrc
@@ -32,8 +31,8 @@ Why should you care?
    agg /path/to/dir/with/content/
 
 6. **Heredoc Version for Quick Use**:
-   [Your Ubuntu heredoc script here]
-
+   See agg_as_heredoc_ubuntu.c
+   
 ## MacOS Version
 
 > **Note**: If you're not using the zsh shell, replace `.zshrc` with `.bashrc` or your respective `.*rc` file.
@@ -44,8 +43,7 @@ Why should you care?
 2. **Verify pbcopy is Installed**:
    which pbcopy
 
-3. **Add the Script to .zshrc**:
-   [Your MacOS function here]
+3. **Add the Script to in agg_mac.sh to .zshrc**
 
 4. **Reload the Shell**:
    source ~/.zshrc
@@ -54,7 +52,7 @@ Why should you care?
    agg /path/to/dir/with/content/
 
 6. **Heredoc Version for Quick Use**:
-   [Your MacOS heredoc script here]
+   agg_as_heredoc_mac.sh
 
 ## Final Notes
 
@@ -62,7 +60,29 @@ Why should you care?
 
 The clipboard size may be limited, leading to truncation of data. It's best to avoid copying overly large amounts of data. The exact limits vary, with some reporting as low as 4000 bytes and others as high as [1MB](https://github.com/astrand/xclip/issues/43).
 
+
+
 To check your current clipboard size on Ubuntu:
 echo "Clipboard size: $(xsel -b | wc -c) bytes, $(xsel -b | wc -m) characters"
 
 As of this writing, ChatGPT’s input limit stands at 4096 characters.
+
+## Credits
+
+https://installati.one/install-xsel-ubuntu-20-04/
+
+https://askubuntu.com/questions/11925/a-command-line-clipboard-copy-and-paste-utility
+
+https://linux.die.net/man/1/xsel
+
+https://bbs.archlinux.org/viewtopic.php?id=217604
+
+https://chat.openai.com/
+
+https://www.androidauthority.com/chatgpt-character-limit-3292997/
+
+https://linuxize.com/post/bash-heredoc/
+
+https://github.com/kfish/xsel
+
+https://github.com/astrand/xclip/issues/43
