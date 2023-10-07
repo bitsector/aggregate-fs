@@ -22,7 +22,7 @@ Why should you care?
 2. **Install xsel**:
    sudo apt update && sudo apt install -y xsel
 
-3. **Add the Script agg_ubuntu.sh script to .zshrc**
+3. **Add the Script [agg_ubuntu.sh](agg_ubuntu.sh) script to .zshrc**
 
 4. **Reload the Shell**:
    source ~/.zshrc
