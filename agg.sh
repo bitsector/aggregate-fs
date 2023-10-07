@@ -14,5 +14,5 @@ agg() {
     # Copy the content to the clipboard using xsel
     echo -e "$aggregated_content" | xsel -ib
 
-    echo "copied to clipboard"
+    echo "copied $(xsel -b | wc -c) bytes, $(xsel -b | wc -m) characters"
 }
