@@ -31,7 +31,7 @@ Why should you care?
    agg /path/to/dir/with/content/
 
 6. **Heredoc Version for Quick Use**:
-   See agg_as_heredoc_ubuntu.c
+   See [agg_as_heredoc_ubuntu.c](agg_as_heredoc_ubuntu.c)
    
 ## MacOS Version
 
@@ -43,7 +43,7 @@ Why should you care?
 2. **Verify pbcopy is Installed**:
    which pbcopy
 
-3. **Add the Script to in agg_mac.sh to .zshrc**
+3. **Add the Script to in [agg_mac.sh](agg_mac.sh) to .zshrc**
 
 4. **Reload the Shell**:
    source ~/.zshrc
@@ -52,7 +52,7 @@ Why should you care?
    agg /path/to/dir/with/content/
 
 6. **Heredoc Version for Quick Use**:
-   agg_as_heredoc_mac.sh
+   [agg_as_heredoc_mac.sh](agg_as_heredoc_mac.sh)
 
 ## Final Notes
 
