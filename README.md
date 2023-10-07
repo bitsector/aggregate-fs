@@ -63,7 +63,9 @@ The clipboard size may be limited, leading to truncation of data. It's best to a
 
 
 To check your current clipboard size on Ubuntu:
+```
 echo "Clipboard size: $(xsel -b | wc -c) bytes, $(xsel -b | wc -m) characters"
+```
 
 As of this writing, ChatGPT’s input limit stands at 4096 characters.
 
